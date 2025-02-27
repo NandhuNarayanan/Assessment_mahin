@@ -1,0 +1,86 @@
+.BusinessContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 80px;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.BusinessBox {
+  background-color: #f9f0fb;
+  height: 544px;
+  width: 100%;
+  border-radius: 24px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.BusinessBoxArea {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 90%;
+  gap: 50px;
+}
+
+.BusinessTitle {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.BusinessBox1 {
+  color: black;
+  width: 312px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.Box1title {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.Box1text {
+  font-size: 18px;
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+    .BusinessBoxArea {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 90%;
+        gap: 50px;
+      }
+  }
+
+
+@media (max-width: 600px) {
+
+    .BusinessContainer {
+
+        margin: 20px;
+       
+    }
+
+
+    .BusinessBox {
+        height: fit-content;
+        padding: 20px;
+
+      }
+      
+      .BusinessBoxArea {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .BusinessTitle {
+        font-size: 24px;
+      }
+
+  }

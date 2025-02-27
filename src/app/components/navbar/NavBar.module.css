@@ -1,0 +1,25 @@
+.NavBarmenu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding:  0 20px;
+}
+.menuListName {
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+}
+.menuListName li {
+  padding: 5px 10px;
+}
+
+.menuButton {
+  color: black;
+  background-color: #ffac33;
+  border-radius: 100px;
+  width: 132px;
+  height: 42px;
+  border: none;
+  font-weight: 700;
+}

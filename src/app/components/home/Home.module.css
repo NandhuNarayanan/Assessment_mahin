@@ -1,0 +1,92 @@
+.container {
+  position: relative;
+  width: 100%;
+  height: 700px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  z-index: -1;
+  size: 62.25px;
+}
+
+.container h1 {
+  font-size: 62.25px;
+}
+.container span {
+  font-size: 24px;
+  color: #9b9b9a;
+  font-weight: 700;
+}
+
+.contentArea {
+  width: 90%;
+}
+
+.buttons {
+  display: flex;
+  margin-top: 32px;
+  gap: 40px;
+}
+
+.primaryButtons {
+  background-color: #ffff00;
+  width: 206px;
+  height: 52px;
+  border-radius: 100px;
+  border: none;
+  color: black;
+  font-weight: 700;
+}
+
+.secondaryButtons {
+  background-color: #ffac33;
+  width: 193px;
+  height: 52px;
+  border-radius: 100px;
+  border: none;
+  color: black;
+  font-weight: 700;
+}
+
+@media (max-width: 600px) {
+
+    .container video {
+        object-fit: cover;
+
+      }
+
+  .container h1 {
+    font-size: 40px;
+  }
+
+  .container span {
+    font-size: 14px;
+    color: #9b9b9a;
+    font-weight: 700;
+  }
+
+  .buttons {
+    gap: 30px;
+  }
+
+  .primaryButtons {
+    width: 180px;
+    height: 52px;
+  }
+
+  .secondaryButtons {
+    width: 180px;
+    height: 52px;
+  }
+}

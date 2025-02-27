@@ -1,52 +1,30 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import Homes from "./components/home/Home";
+import NavBar from "./components/navbar/NavBar";
+import Who_we_are_image from "./components/who_We_ Are/WhoWeAre";
+import OurMission from "./components/our_Mission/Our_Mission";
+import Business from "./components/business/Business";
+import Company from "./components/trusted_Company/trustedCompany";
+import How_it_works from "./components/how_its_work/how_its_work";
 
 export default function Home() {
   return (
     <div className={styles.page}>
+      {/* <nav> */}
+      <NavBar />
+      {/* </nav> */}
       <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol>
-          <li>
-            Get started by editing <code>src/app/page.js</code>.
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
         <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.secondary}
-          >
-            Read our docs
-          </a>
+          <Homes />
+          <Who_we_are_image />
+          <OurMission />
+          <Business />
+          <Company />
+          <How_it_works />
         </div>
       </main>
-      <footer className={styles.footer}>
+      {/* <footer className={styles.footer}>
         <a
           href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
           target="_blank"
@@ -89,7 +67,7 @@ export default function Home() {
           />
           Go to nextjs.org →
         </a>
-      </footer>
+      </footer> */}
     </div>
   );
 }

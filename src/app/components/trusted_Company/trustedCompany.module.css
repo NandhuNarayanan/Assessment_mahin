@@ -1,0 +1,15 @@
+.trustedCompanyContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  
+}
+
+.trustedCompanyLogos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
