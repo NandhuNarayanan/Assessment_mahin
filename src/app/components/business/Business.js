@@ -34,9 +34,10 @@ export default function Business() {
                   height={45}
                 />
               </div>
-              <div className={styles.Box1title}>Human-Like Conversations</div>
+              <div className={styles.Box1title}>Scalable Solutions</div>
               <div className={styles.Box1text}>
-                NLP ensures smooth, natural interactions.
+                Designed for businesses of all sizes, from startups to
+                enterprises.
               </div>
             </div>
             <div className={styles.BusinessBox1}>
@@ -48,9 +49,9 @@ export default function Business() {
                   height={45}
                 />
               </div>
-              <div className={styles.Box1title}>Human-Like Conversations</div>
+              <div className={styles.Box1title}>Cost-Effective</div>
               <div className={styles.Box1text}>
-                NLP ensures smooth, natural interactions.
+                Reduce operational costs while increasing efficiency
               </div>
             </div>
             <div className={styles.BusinessBox1}>
@@ -62,9 +63,9 @@ export default function Business() {
                   height={45}
                 />
               </div>
-              <div className={styles.Box1title}>Human-Like Conversations</div>
+              <div className={styles.Box1title}>Real-Time Analytics</div>
               <div className={styles.Box1text}>
-                NLP ensures smooth, natural interactions.
+                Track performance with comprehensive dashboards.
               </div>
             </div>
             <div className={styles.BusinessBox1}>
@@ -76,9 +77,10 @@ export default function Business() {
                   height={45}
                 />
               </div>
-              <div className={styles.Box1title}>Human-Like Conversations</div>
+              <div className={styles.Box1title}>Customizable AI</div>
               <div className={styles.Box1text}>
-                NLP ensures smooth, natural interactions.
+                Tailored solutions to meet your unique needs for Industries We
+                Serve
               </div>
             </div>
             <div className={styles.BusinessBox1}>
@@ -90,9 +92,9 @@ export default function Business() {
                   height={45}
                 />
               </div>
-              <div className={styles.Box1title}>Human-Like Conversations</div>
+              <div className={styles.Box1title}>Data-Driven Insights</div>
               <div className={styles.Box1text}>
-                NLP ensures smooth, natural interactions.
+                achieving the best possible return on investment.
               </div>
             </div>
           </div>

@@ -7,6 +7,9 @@ import OurMission from "./components/our_Mission/Our_Mission";
 import Business from "./components/business/Business";
 import Company from "./components/trusted_Company/trustedCompany";
 import How_it_works from "./components/how_its_work/how_its_work";
+import Service from "./components/services_we_provide/services_We_Provide";
+import Ai from "./components/ai_development/ai_Development";
+import Client from "./components/client_expectations/client_Expectations";
 
 export default function Home() {
   return (
@@ -22,6 +25,9 @@ export default function Home() {
           <Business />
           <Company />
           <How_it_works />
+          <Service />
+          <Ai />
+          <Client />
         </div>
       </main>
       {/* <footer className={styles.footer}>

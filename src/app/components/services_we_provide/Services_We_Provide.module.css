@@ -1,0 +1,105 @@
+.services_We_ProvideContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.services_We_ProvideTitle {
+  font-size: 45px;
+  font-weight: 700;
+  margin: 20px;
+}
+.BusinessBoxArea {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-items: center;
+  gap: 50px;
+}
+.BusinessBoxArea2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-items: center;
+  gap: 50px;
+}
+
+.BusinessTitle {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.BusinessBox1 {
+  color: black;
+  width: 320px;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  background-color: #ffffff;
+  border-radius: 30px;
+}
+
+.BusinessBox2 {
+  color: black;
+  width: 320px;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  background-color: #ffffff;
+  border-radius: 30px;
+  margin-top: 20px;
+}
+
+.Box1title {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffac33;
+}
+
+.Box1text {
+  font-size: 18px;
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .BusinessBoxArea {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 90%;
+    gap: 50px;
+  }
+
+  .BusinessBoxArea2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 90%;
+    gap: 50px;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .BusinessBoxArea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .BusinessTitle {
+    font-size: 24px;
+  }
+
+  .BusinessBoxArea2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+}
