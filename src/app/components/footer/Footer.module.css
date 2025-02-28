@@ -61,8 +61,6 @@
   position: absolute;
   bottom: -101px;
   right: -122px;
-  width: 350px;
-  height: 250px;
   z-index: 1;
   rotate: 140deg;
 }

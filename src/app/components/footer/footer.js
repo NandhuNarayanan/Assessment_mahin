@@ -4,15 +4,6 @@ import styles from "./Footer.module.css";
 export default function footer() {
   return (
     <div className={styles.footerContainer}>
-      <div >
-        <Image
-          src="/footer_color.png"
-          alt="Vercel Logo"
-          width={150}
-          height={150}
-          className={styles.colorBackground}
-        />
-      </div>
       <div>
         <Image
           src="/Logo.png"
@@ -75,6 +66,15 @@ export default function footer() {
             />
           </div>
         </div>
+      </div>
+      <div>
+        <Image
+          src="/footer_color.png"
+          alt="Vercel Logo"
+          width={350}
+          height={250}
+          className={styles.colorBackground}
+        />
       </div>
     </div>
   );
