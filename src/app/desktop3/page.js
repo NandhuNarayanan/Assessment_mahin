@@ -15,13 +15,20 @@ import Image_Gallery from "../components/imageGallery/image_Gallery";
 import ProjectIdea from "../components/project_Idea/project_Idea";
 import Office from "../components/our_offices/our_Offices";
 import Footer from "../components/footer/footer";
+import Image from "next/image";
 
 export default function page() {
   return (
     <>
       <NavBar />
       <div className={styles.aiImageScreen}>
-        <img className={styles.aiImage} src="/ai.png" alt="" />
+        <Image
+          width={1920}
+          height={616}
+          className={styles.aiImage}
+          src="/ai.png"
+          alt=""
+        />
       </div>
       <Develop_Ai />
       <AboutTheProject />

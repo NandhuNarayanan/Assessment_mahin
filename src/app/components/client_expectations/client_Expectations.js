@@ -11,14 +11,18 @@ export default function () {
         </h3>
       </div>
       <div className={styles.client_ExpectationsImagearea}>
-        <img
+        <Image
+          width={1440}
+          height={327}
           src="/Frame1.png"
           alt="Vercel Logo"
           className={styles.client_ExpectationsImage}
         />
       </div>
       <div className={styles.client_ExpectationsImagearea}>
-        <img
+        <Image
+          width={1440}
+          height={327}
           src="/Frame1.png"
           alt="Vercel Logo"
           className={styles.client_ExpectationsImage}
