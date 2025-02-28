@@ -39,7 +39,7 @@
   gap: 40px;
 }
 
-.primaryButtons {
+/* .primaryButtons {
   background-color: #ffff00;
   width: 206px;
   height: 52px;
@@ -57,6 +57,43 @@
   border: none;
   color: black;
   font-weight: 700;
+} */
+
+.primaryButtons {
+  background-color: #ffac33;
+  width: 193px;
+  height: 52px;
+  border-radius: 100px;
+  border: none;
+  color: black;
+  font-weight: 700;
+  border: none;
+  padding: 12px 24px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.primaryButtons:hover {
+  background-color: #ffff00d2; /* Darker blue on hover */
+  transform: scale(1.05); /* Slightly enlarges button */
+}
+
+.secondaryButtons {
+  background-color: #ffac33;
+  width: 193px;
+  height: 52px;
+  border-radius: 100px;
+  border: none;
+  color: black;
+  font-weight: 700;
+  padding: 12px 24px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.secondaryButtons:hover {
+  background-color: #ffad33bd;
+  transform: scale(1.05);
 }
 
 @media (max-width: 600px) {
