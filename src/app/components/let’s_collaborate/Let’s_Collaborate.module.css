@@ -135,6 +135,11 @@
 }
 
 @media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    height: 100%;
+  }
+
   .container video {
     object-fit: cover;
   }
@@ -147,5 +152,21 @@
     font-size: 14px;
     color: #9b9b9a;
     font-weight: 700;
+  }
+
+  .formArea {
+    width: 100%;
+  }
+  .form {
+    width: 100%;
+  }
+  .name {
+    width: 100%;
+  }
+  .email {
+    width: 50%;
+  }
+  .company {
+    width: 50%;
   }
 }

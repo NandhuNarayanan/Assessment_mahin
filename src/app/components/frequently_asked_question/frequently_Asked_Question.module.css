@@ -32,3 +32,9 @@
   border-bottom: 1px solid #1f1f1e1a;
   margin: 10px;
 }
+
+@media (max-width: 600px) {
+  .frequently_Asked_QuestionTitle {
+    width: 100%;
+  }
+}
