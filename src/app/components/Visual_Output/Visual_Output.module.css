@@ -1,0 +1,42 @@
+.visual_OutputContainer {
+  background-color: #d6dce1;
+}
+.visual_OutputImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 30px;
+}
+.visual_OutputTitleText {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.visual_OutputTitle {
+  display: flex;
+  justify-content: space-around;
+  color: #000;
+  margin: 50px;
+  padding-top: 50px;
+}
+
+.visual_OutputText {
+  width: 30%;
+  word-break: break-all;
+  line-height: 20px;
+  font-size: 20x;
+}
+@media (max-width: 600px) {
+  .visualImage {
+    width: 100%;
+  }
+
+  .visual_OutputTitle {
+    flex-direction: column;
+    align-items: center;
+  }
+  .visual_OutputText {
+    width: 100%;
+  }
+}

@@ -1,0 +1,28 @@
+.imageGalleryContainer {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.imageGalleryArea {
+  margin-top: 150px;
+}
+.imageContainer {
+  width: 100%;
+}
+
+.textArea {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 600px) {
+    .imageGalleryContainer {
+        flex-direction: column;
+      }
+      .imageGalleryArea {
+        margin-top: 10px;
+      }
+  .imageContainer {
+    width: 50%;
+  }
+}

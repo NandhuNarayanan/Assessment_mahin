@@ -1,0 +1,11 @@
+.visual_OutputImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 30px;
+}
+
+.eImage {
+  width: 100%;
+}

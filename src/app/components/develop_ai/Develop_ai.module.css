@@ -1,0 +1,49 @@
+.develop_ai_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.develop_ai_AREAcontainer {
+  width: 80%;
+}
+.develop_ai_listcontainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.develop_ai_list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.develop_ai_heading {
+  font-size: 90px;
+  font-weight: 700;
+}
+.develop_ai_client {
+  font-size: 16px;
+  color: #7d7d82;
+}
+.develop_ai_name {
+  font-size: 18px;
+}
+
+@media (max-width: 600px) {
+  .develop_ai_listcontainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .develop_ai_list {
+    align-items: center;
+  }
+
+  .develop_ai_heading {
+    font-size: 44px;
+    margin-top: 25px;
+  }
+}

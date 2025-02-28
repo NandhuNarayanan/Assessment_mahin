@@ -1,0 +1,13 @@
+.ai_ComputingContainer {
+  display: flex;
+  background-color: #fff;
+}
+
+@media (max-width: 600px) {
+  .ai_ComputingContainer {
+    flex-direction: column;
+  }
+  .ai_ComputingImage{
+    width: 100%;
+  }
+}

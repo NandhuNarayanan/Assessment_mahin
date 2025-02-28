@@ -1,0 +1,18 @@
+.aiImageScreen {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 1024px) {
+  .aiImage {
+    max-width: 900px;
+    min-width: 400px;
+  }
+}
+
+@media (max-width: 600px) {
+  .aiImage {
+    max-width: 400px;
+    min-width: 200px;
+  }
+}

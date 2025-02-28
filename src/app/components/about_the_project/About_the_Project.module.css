@@ -1,0 +1,52 @@
+.aboutMain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 80%;
+  margin: 50px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  width: 60%;
+}
+.header {
+  width: 40%;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.context1 {
+  width: 80%;
+  line-height: 45px;
+  font-size: 32px;
+  font-weight: 700;
+}
+.context {
+  width: 80%;
+  line-height: 45px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    width: 100%;
+  }
+  .content {
+    width: 100%;
+  }
+  .header {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
