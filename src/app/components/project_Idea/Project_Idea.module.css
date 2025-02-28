@@ -147,6 +147,7 @@
     flex-direction: column;
     height: 100%;
     padding: 1px;
+    margin: 0px;
   }
 
   .container video {
@@ -173,9 +174,23 @@
     width: 100%;
   }
   .email {
-    width: 50%;
+    width: 60%;
   }
   .company {
     width: 50%;
+  }
+
+  .contentArea {
+    width: 90%;
+  }
+  .backgroundimage {
+    width: 150px;
+    height: 150px;
+  }
+  .email input {
+    width: 90%;
+  }
+  .company input {
+    width: 90%;
   }
 }

@@ -17,6 +17,7 @@
   justify-content: center;
   gap: 20px;
   width: 60%;
+  word-break: break-all;
 }
 .header {
   width: 40%;
@@ -29,18 +30,21 @@
   line-height: 45px;
   font-size: 32px;
   font-weight: 700;
+  word-break: break-all;
 }
 .context {
   width: 80%;
   line-height: 45px;
   font-size: 20px;
   font-weight: 600;
+  word-break: break-all;
 }
 
 @media (max-width: 600px) {
   .container {
     flex-direction: column;
     width: 100%;
+    margin: 25px;
   }
   .content {
     width: 100%;
@@ -48,5 +52,16 @@
   .header {
     width: 100%;
     margin-bottom: 30px;
+  }
+  .context1 {
+    width: 100%;
+    line-height: 45px;
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .context {
+    width: 90%;
+
   }
 }

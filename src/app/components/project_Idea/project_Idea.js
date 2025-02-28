@@ -6,7 +6,7 @@ export default function project_Idea() {
   return (
     <div className={styles.container}>
       <div className={styles.background}>
-        <Image src="/aiBackpic.png" alt="Vercel Logo" width={500} height={500} />
+        <Image src="/aiBackpic.png" alt="Vercel Logo" width={500} height={500} className={styles.backgroundimage} />
       </div>
       <div className={styles.contentArea}>
         <h1>

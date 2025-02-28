@@ -16,3 +16,16 @@
   word-break: break-all;
   width: 50%;
 }
+
+@media (max-width: 600px) {
+  .data_collection li {
+    width: 80%;
+  }
+  .list {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 0 ;
+  }
+}

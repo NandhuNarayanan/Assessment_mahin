@@ -78,6 +78,7 @@
   .container {
     flex-direction: column;
     width: 100%;
+    margin: 0px;
   }
   .content {
     width: 100%;
@@ -90,5 +91,8 @@
     line-height: 25px;
     width: 100%;
 
+  }
+  .ceosection {
+    gap: 15px;
   }
 }

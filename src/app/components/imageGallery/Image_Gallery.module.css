@@ -25,4 +25,7 @@
   .imageContainer {
     width: 50%;
   }
+  .textArea {
+  padding: 10px;
+  }
 }
