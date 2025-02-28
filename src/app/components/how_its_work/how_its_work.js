@@ -32,7 +32,7 @@ export default function how_its_work() {
                   </li>
                   <li>
                     Step 3: Let our AI agents handle the rest while you monitor
-                    <br/> results in real-time.
+                    results in real-time.
                   </li>
                 </ul>
               </div>
