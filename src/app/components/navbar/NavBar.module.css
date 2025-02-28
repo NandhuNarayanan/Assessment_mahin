@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  padding:  0 20px;
+  padding: 0 20px;
 }
 .menuListName {
   list-style-type: none;
@@ -22,4 +22,34 @@
   height: 42px;
   border: none;
   font-weight: 700;
+}
+
+.menuOpen {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .menuOpen {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .menuList {
+    display: none;
+  }
+  .menuButton {
+    display: none;
+    
+  }
+  .menuOpen {
+    background-color: transparent;
+    width: 112px;
+    height: 42px;
+    border: none;
+    font-weight: 700;
+    display: inline;
+  }
+  .menuicon {
+    display: flex;
+  }
 }
