@@ -9,7 +9,7 @@ export default function visual_Output() {
         <div className={styles.visual_OutputTitleText}>Visual Output</div>
         <div className={styles.visual_OutputText}>
           This AI is your go-to platform for intelligent and innovative AI
-          solutions. Whether you're looking to automate workflows, gain
+          solutions. Whether you are looking to automate workflows, gain
           actionable insights, or enhance user experiences, AI offers a
           hassle-free and scalable way to meet your business needs with
           cutting-edge technology.
