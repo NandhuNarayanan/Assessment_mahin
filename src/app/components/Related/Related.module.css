@@ -30,11 +30,6 @@
   align-items: center;
   flex-direction: column;
 }
-.container span {
-  font-size: 24px;
-  color: #9b9b9a;
-  font-weight: 700;
-}
 
 .contentArea {
   width: 50%;
@@ -44,16 +39,12 @@
   align-items: center;
 }
 
-.background {
-  position: absolute;
-  bottom: 0;
-  left: -90px;
-}
-
 .impact {
   color: #000000;
   font-size: 120px;
   font-weight: 700;
+  width: 100%;
+  margin-right: 400px;
 }
 .create {
   color: #97979b;
@@ -82,17 +73,17 @@
     font-weight: 700;
   }
 
-  .background {
-    position: absolute;
-    bottom: 0;
-    left: -190;
-    width: 100%;
-  }
-
   .impact {
+
     font-size: 50px;
+
+    width: 100%;
+    margin-right: 0px;
   }
   .create {
+
     font-size: 50px;
+   
   }
+  
 }

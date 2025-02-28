@@ -9,6 +9,12 @@ import Data_collection from "../components/Data_colllection/data_collection";
 import Ai_Computing from "../components/ai_computing/ai_Computing";
 import VisualOut from "../components/Visual_Output/visual_Output";
 import EMarker from "../components/e_market/e_Market";
+import Impact from "../components/impact/impact";
+import Related from "../components/Related/Related";
+import Image_Gallery from "../components/imageGallery/image_Gallery";
+import ProjectIdea from "../components/project_Idea/project_Idea";
+import Office from "../components/our_offices/our_Offices";
+import Footer from "../components/footer/footer";
 
 export default function page() {
   return (
@@ -25,6 +31,12 @@ export default function page() {
       <Ai_Computing />
       <VisualOut />
       <EMarker />
+      <Impact />
+      <Related />
+      <Image_Gallery />
+      <ProjectIdea />
+      <Office />
+      <Footer />
     </>
   );
 }
