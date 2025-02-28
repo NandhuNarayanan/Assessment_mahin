@@ -70,4 +70,13 @@
   .BusinessTitle {
     font-size: 24px;
   }
+
+  .Box1image {
+    display: flex;
+    justify-content: center;
+  }
+
+  .image {
+    width: 90%;
+  }
 }

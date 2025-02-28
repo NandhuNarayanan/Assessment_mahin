@@ -10,7 +10,7 @@ export default function our_Offices() {
       </div>
       <div className={styles.BusinessBoxArea}>
         <div className={styles.BusinessBox1}>
-          <div>
+          <div className={styles.Box1image}>
             <Image
               src="/builing1.jpg"
               alt="Vercel Logo"
@@ -25,7 +25,7 @@ export default function our_Offices() {
           </div>
         </div>
         <div className={styles.BusinessBox1}>
-          <div>
+          <div className={styles.Box1image}>
             <Image
               src="/builing2.jpg"
               alt="Vercel Logo"
@@ -41,7 +41,7 @@ export default function our_Offices() {
           </div>
         </div>
         <div className={styles.BusinessBox1}>
-          <div>
+          <div className={styles.Box1image}>
             <Image
               src="/builing1.jpg"
               alt="Vercel Logo"
@@ -56,7 +56,7 @@ export default function our_Offices() {
           </div>
         </div>
         <div className={styles.BusinessBox1}>
-          <div>
+          <div className={styles.Box1image}>
             <Image
               src="/builing2.jpg"
               alt="Vercel Logo"
@@ -71,7 +71,7 @@ export default function our_Offices() {
           </div>
         </div>
         <div className={styles.BusinessBox1}>
-          <div>
+          <div className={styles.Box1image}>
             <Image
               src="/builing1.jpg"
               alt="Vercel Logo"
@@ -86,7 +86,6 @@ export default function our_Offices() {
           </div>
         </div>
       </div>
-
     </div>
   );
 }

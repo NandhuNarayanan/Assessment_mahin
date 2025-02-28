@@ -45,6 +45,7 @@
   }
   .frequently_Asked_QuestionTitle {
     height: fit-content;
-
+    font-size: 16px;
   }
+
 }

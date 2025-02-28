@@ -35,7 +35,7 @@ export default function frequently_Asked_Question() {
           <span>
             Why is BoostmySites Different From Others in Website Develop Design?
           </span>
-          <Image src="/Arrow.svg" alt="Vercel Logo" width={44} height={44} />
+          <Image src="/Arrow.svg" alt="Vercel Logo" width={44} height={44} className={styles.Arrow} />
         </div>
       </div>
     </div>
