@@ -4,7 +4,7 @@ import styles from "./Ai_Development.module.css";
 export default function ai_Development() {
   return (
     <div className={styles.ai_development_container}>
-      <div>
+      <div className={styles.ai_development_headingarea}>
         <h2 className={styles.ai_development_heading}>
           Numbers that define our AI <br /> Development capabilities!
         </h2>

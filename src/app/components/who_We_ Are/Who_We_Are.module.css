@@ -47,7 +47,13 @@
   font-size: 16px;
 }
 
+
 @media (max-width: 600px) {
+
+  .WhoWeAreContainer {
+    margin: 80px 30px;
+  }
+
   .WhoWeAreArea {
     display: flex;
     flex-direction: column;
@@ -55,7 +61,7 @@
 
   .WhoWeAreTextarea {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 30px;
     width: 100%;
   }
@@ -65,13 +71,17 @@
   }
   .WhoWeAreText {
     font-size: 14px;
-    width: 80%;
+    width: 100%;
   }
 
   .WhoWeAreImage {
     border-radius: 20px;
-    width: 360px;
+    width: 100%;
     object-fit: cover;
     object-position: center;
+  }
+
+  .WhoWeAreImagearea {
+    width: 100%;
   }
 }

@@ -74,4 +74,18 @@
   .colorBackground {
     display: none;
   }
+
+  .contact {
+    text-align: center;
+  }
+
+  .usefulLinks {
+    align-items: center;
+  }
+  .newsletterArea {
+    align-items: center;
+  }
+  .ai_development_headingarea {
+    width: 100%;
+  }
 }

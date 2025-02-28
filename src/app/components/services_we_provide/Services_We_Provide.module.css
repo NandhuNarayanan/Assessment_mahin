@@ -69,6 +69,18 @@
 }
 
 @media (max-width: 1024px) {
+  .BusinessBox1 {
+    width: 340px;
+    height: 320px;
+    padding: 10px;
+  }
+
+  .BusinessBox2 {
+    width: 340px;
+    height: 320px;
+    padding: 10px;
+  }
+
   .BusinessBoxArea {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -101,5 +113,13 @@
     flex-direction: column;
     align-items: center;
     margin-top: 20px;
+  }
+  .services_We_ProvideTitle {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 30px 15px;
+  }
+  .services_We_ProvideTitleArea {
+    width: 95%;
   }
 }

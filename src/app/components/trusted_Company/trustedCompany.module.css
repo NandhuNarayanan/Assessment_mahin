@@ -17,5 +17,9 @@
   .trustedCompanyLogos {
     overflow-x: scroll;
     gap: 18px;
+    margin: 40px 0;
+  }
+  .trustedCompanyContainer {
+    gap: 0px;
   }
 }

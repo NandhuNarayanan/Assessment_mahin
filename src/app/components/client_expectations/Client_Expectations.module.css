@@ -43,10 +43,10 @@
   }
 
   .client_ExpectationsTitle {
-    font-size: 45px;
+    font-size: 24px;
     font-weight: 700;
     color: #000000;
-    margin-top: 50px;
+    margin: 50px 20px 0px 20px;
   }
 
   .client_ExpectationsImagearea::-webkit-scrollbar-thumb {

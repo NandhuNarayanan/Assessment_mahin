@@ -12,7 +12,7 @@ export default function footer() {
           height={100}
         ></Image>
       </div>
-      <div>
+      <div className={styles.contact}>
         <div>Contact</div>
         <div className={styles.address}>
           Office number 309, Ambadeep building- 3rd floor, Kg marg Connaugt

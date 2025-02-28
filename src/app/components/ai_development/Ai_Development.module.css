@@ -149,11 +149,11 @@
   }
   .ai_development_box1 {
     align-items: center;
-    width: 540px;
+    width: 355px;
   }
 
   .ai_development_box1 div {
-    width: 60%;
+    width: 90%;
   }
 
   .ai_development_box1 h3 {
@@ -163,11 +163,11 @@
 
   .ai_development_box2 {
     align-items: center;
-    width: 540px;
+    width: 355px;
   }
 
   .ai_development_box2 div {
-    width: 60%;
+    width: 90%;
   }
 
   .ai_development_box2 h3 {
@@ -177,10 +177,11 @@
 
   .ai_development_box3 {
     align-items: center;
+    width: 355px;
   }
 
   .ai_development_box3 div {
-    width: 60%;
+    width: 90%;
   }
 
   .ai_development_box3 h3 {
@@ -190,7 +191,7 @@
 
   .ai_development_box4 {
     /* background-color: #f9cbcb; */
-    width: 390px;
+    width: 355px;
   }
 
   .ai_development_box4 div {
@@ -200,5 +201,11 @@
   .ai_development_box4 h5 {
     font-size: 24px;
     font-weight: 700;
+  }
+
+  .ai_development_heading {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 28px 0;
   }
 }

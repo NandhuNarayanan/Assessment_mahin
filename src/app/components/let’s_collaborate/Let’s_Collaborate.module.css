@@ -155,15 +155,18 @@
     font-weight: 700;
   }
 
-  .contentArea{
+  .contentArea {
     margin: 40px;
   }
 
   .formArea {
     width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
   }
   .form {
-    width: 100%;
+    width: 90%;
   }
   .name {
     width: 100%;
