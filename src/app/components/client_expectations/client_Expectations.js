@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import styles from "./Client_Expectations.module.css";
 
-export default function () {
+export default function ClientExpectations() {
   return (
     <div className={styles.client_ExpectationsContainer}>
       <div>
