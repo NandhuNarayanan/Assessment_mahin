@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function our_Offices() {
   return (
     <div className={styles.services_We_ProvideContainer}>
-      <div>
+      <div className={styles.services_We_ProvideTitleArea}>
         <h3 className={styles.services_We_ProvideTitle}>Our Offices</h3>
       </div>
       <div className={styles.BusinessBoxArea}>

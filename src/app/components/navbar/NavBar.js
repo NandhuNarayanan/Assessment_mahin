@@ -29,12 +29,7 @@ export default function NavBar() {
       </div>
       <div className={styles.menuicon} id="menu">
         <button className={styles.menuOpen} onClick={() => setOpen(!open)}>
-          <Image
-            src="/hamburger.png"
-            alt="Vercel Logo"
-            width={50}
-            height={50}
-          />
+          <Image src="/hamb.png" alt="Vercel Logo" width={50} height={50} />
         </button>
         <button className={styles.menuButton}>Contact</button>
       </div>

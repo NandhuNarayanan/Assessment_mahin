@@ -1,42 +1,172 @@
+"use client";
+
 import Image from "next/image";
-import React from "react";
+import React, { useState } from "react";
 import styles from "./frequently_Asked_Question.module.css";
 
 export default function frequently_Asked_Question() {
+  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen1, setIsOpen1] = useState(false);
+  const [isOpen2, setIsOpen2] = useState(false);
+  const [isOpen3, setIsOpen3] = useState(false);
+  const [isOpen4, setIsOpen4] = useState(false);
   return (
     <div className={styles.frequently_Asked_Question}>
       <div className={styles.frequently_Asked_QuestionContainer}>
         <div className={styles.frequently_Asked_QuestionHeader}>
           Frequently <br /> Asked Question
         </div>
-        <div className={styles.frequently_Asked_QuestionTitle}>
+        <div
+          className={styles.frequently_Asked_QuestionTitle}
+          onClick={() => setIsOpen(!isOpen)}
+        >
           <span>What is AI development?</span>
-          <Image src="/Arrow.svg" alt="Vercel Logo" width={44} height={44} />
+          {isOpen ? (
+            <Image
+              src="/Arrow.svg"
+              alt="Vercel Logo"
+              width={44}
+              height={44}
+              className={styles.Arrow}
+            />
+          ) : (
+            <Image
+              src="/Arrow.svg"
+              alt="Vercel Logo"
+              width={44}
+              height={44}
+              className={styles.Arrow2}
+            />
+          )}
         </div>
-        <div className={styles.frequently_Asked_QuestionTitle}>
+        {isOpen && (
+          <div className={styles.frequently_Asked_qnsAnswer}>
+            <span>
+              - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+              iaculis tempus eros non vestibulum.
+            </span>
+          </div>
+        )}
+        <div className={styles.frequently_Asked_QuestionTitle} onClick={() => setIsOpen1(!isOpen1)}>
           <span>How long does it take to design an app?</span>
-          <Image src="/Arrow.svg" alt="Vercel Logo" width={44} height={44} />
+          {isOpen1 ? (
+            <Image
+              src="/Arrow.svg"
+              alt="Vercel Logo"
+              width={44}
+              height={44}
+              className={styles.Arrow}
+            />
+          ) : (
+            <Image
+              src="/Arrow.svg"
+              alt="Vercel Logo"
+              width={44}
+              height={44}
+              className={styles.Arrow2}
+            />
+          )}
         </div>
-        <div className={styles.frequently_Asked_QuestionTitle}>
+        {isOpen1 && (
+          <div className={styles.frequently_Asked_qnsAnswer}>
+            <span>
+              - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+              iaculis tempus eros non vestibulum.
+            </span>
+          </div>
+        )}
+        <div className={styles.frequently_Asked_QuestionTitle} onClick={() => setIsOpen2(!isOpen2)}>
           <span>
             What should I expect if I hire your company for Website design
             services?
           </span>
-          <Image src="/Arrow.svg" alt="Vercel Logo" width={44} height={44} />
+          {isOpen2 ? (
+            <Image
+              src="/Arrow.svg"
+              alt="Vercel Logo"
+              width={44}
+              height={44}
+              className={styles.Arrow}
+            />
+          ) : (
+            <Image
+              src="/Arrow.svg"
+              alt="Vercel Logo"
+              width={44}
+              height={44}
+              className={styles.Arrow2}
+            />
+          )}
         </div>
-        <div className={styles.frequently_Asked_QuestionTitle}>
+        {isOpen2 && (
+          <div className={styles.frequently_Asked_qnsAnswer}>
+            <span>
+              - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+              iaculis tempus eros non vestibulum.
+            </span>
+          </div>
+        )}
+        <div className={styles.frequently_Asked_QuestionTitle} onClick={() => setIsOpen3(!isOpen3)}>
           <span>
             What are the steps involved in your Website design and AI
             development?
           </span>
-          <Image src="/Arrow.svg" alt="Vercel Logo" width={44} height={44} />
+          {isOpen3 ? (
+            <Image
+              src="/Arrow.svg"
+              alt="Vercel Logo"
+              width={44}
+              height={44}
+              className={styles.Arrow}
+            />
+          ) : (
+            <Image
+              src="/Arrow.svg"
+              alt="Vercel Logo"
+              width={44}
+              height={44}
+              className={styles.Arrow2}
+            />
+          )}
         </div>
-        <div className={styles.frequently_Asked_QuestionTitle}>
+        {isOpen3 && (
+          <div className={styles.frequently_Asked_qnsAnswer}>
+            <span>
+              - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+              iaculis tempus eros non vestibulum.
+            </span>
+          </div>
+        )}
+        <div className={styles.frequently_Asked_QuestionTitle} onClick={() => setIsOpen4(!isOpen4)}>
           <span>
             Why is BoostmySites Different From Others in Website Develop Design?
           </span>
-          <Image src="/Arrow.svg" alt="Vercel Logo" width={44} height={44} className={styles.Arrow} />
+          {isOpen4 ? (
+            <Image
+              src="/Arrow.svg"
+              alt="Vercel Logo"
+              width={44}
+              height={44}
+              className={styles.Arrow}
+            />
+          ) : (
+            <Image
+              src="/Arrow.svg"
+              alt="Vercel Logo"
+              width={44}
+              height={44}
+              className={styles.Arrow2}
+            />
+          )}
         </div>
+        {isOpen4 && (
+          <div className={styles.frequently_Asked_qnsAnswer}>
+            <span>
+              - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+              iaculis tempus eros non vestibulum.
+            </span>
+          </div>
+        )}
       </div>
     </div>
   );

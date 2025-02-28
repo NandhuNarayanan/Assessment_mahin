@@ -61,6 +61,10 @@
 }
 
 @media (max-width: 600px) {
+  .services_We_ProvideTitleArea {
+    width: 90%;
+  }
+
   .BusinessBoxArea {
     display: flex;
     flex-direction: column;
@@ -77,13 +81,16 @@
   }
 
   .image {
-    width: 90%;
+    width: 93%;
   }
 
   .services_We_ProvideTitle {
-    font-size: 42px;
+    font-size: 28px;
 
-    margin: 40px;
+    margin: 40px 0;
   }
 
+  .Box1text {
+    font-size: 14px;
+  }
 }

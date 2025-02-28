@@ -32,7 +32,9 @@
   border: none;
   font-weight: 700;
   display: inline;
-  width: 900px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .menuButton {
