@@ -10,6 +10,8 @@ import How_it_works from "./components/how_its_work/how_its_work";
 import Service from "./components/services_we_provide/services_We_Provide";
 import Ai from "./components/ai_development/ai_Development";
 import Client from "./components/client_expectations/client_Expectations";
+import Frequently_asked_question from "./components/frequently_asked_question/frequently_Asked_Question";
+import LetsCollaborate from "./components/let’s_collaborate/let’s_Collaborate";
 
 export default function Home() {
   return (
@@ -28,6 +30,8 @@ export default function Home() {
           <Service />
           <Ai />
           <Client />
+          <Frequently_asked_question />
+          <LetsCollaborate />
         </div>
       </main>
       {/* <footer className={styles.footer}>
