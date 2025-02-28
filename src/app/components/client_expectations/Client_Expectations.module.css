@@ -25,7 +25,7 @@
 @media (max-width: 600px) {
 
   .client_ExpectationsTitle {
-    font-size: 28px;
+    font-size: 26px;
   }
 
   .client_ExpectationsImagearea {
@@ -40,6 +40,13 @@
 
   .client_ExpectationsImagearea::-webkit-scrollbar {
     height: 6px; 
+  }
+
+  .client_ExpectationsTitle {
+    font-size: 45px;
+    font-weight: 700;
+    color: #000000;
+    margin-top: 50px;
   }
 
   .client_ExpectationsImagearea::-webkit-scrollbar-thumb {

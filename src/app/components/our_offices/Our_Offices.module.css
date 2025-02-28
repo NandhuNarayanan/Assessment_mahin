@@ -79,4 +79,11 @@
   .image {
     width: 90%;
   }
+
+  .services_We_ProvideTitle {
+    font-size: 42px;
+
+    margin: 40px;
+  }
+
 }

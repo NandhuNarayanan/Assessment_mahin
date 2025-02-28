@@ -146,13 +146,17 @@
   }
 
   .container h1 {
-    font-size: 40px;
+    font-size: 38px;
   }
 
   .container span {
     font-size: 14px;
     color: #9b9b9a;
     font-weight: 700;
+  }
+
+  .contentArea{
+    margin: 40px;
   }
 
   .formArea {
