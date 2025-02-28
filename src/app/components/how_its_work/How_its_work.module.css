@@ -87,6 +87,7 @@
   .how_its_work_title {
     font-size: 20px;
     font-weight: 600;
+    margin: 0 10px;
   }
   .how_its_work_Textarea li {
     list-style-type: none;

@@ -37,4 +37,14 @@
   .frequently_Asked_QuestionTitle {
     width: 100%;
   }
+  .frequently_Asked_QuestionHeader {
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+  }
+  .frequently_Asked_QuestionTitle {
+    height: fit-content;
+
+  }
 }

@@ -1,0 +1,79 @@
+.footerContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+}
+
+.address {
+  margin: 20px 0;
+  width: 345px;
+  color: #c6c8c9;
+  font-size: 20px;
+}
+
+.usefulLinks {
+  margin-top: 10px;
+  list-style-type: none;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.phone {
+  margin-top: 8px;
+  color: #fd5b38;
+}
+
+.newsletterArea {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.newsletter input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  box-sizing: border-box;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 5px;
+  font-size: 16px;
+  border-bottom: 1px solid #ffffff1a;
+}
+
+.socialIcons {
+  display: flex;
+  gap: 10px;
+}
+
+.colorBackground {
+  /* background-image: url("/footer_color.png"); */
+  background-size: contain; /* Adjust to make image fully visible */
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: -101px;
+  right: -122px;
+  width: 350px;
+  height: 250px;
+  z-index: 1;
+  rotate: 140deg;
+}
+
+@media (max-width: 600px) {
+  .footerContainer {
+    flex-direction: column;
+    height: fit-content;
+  }
+
+  .colorBackground {
+    display: none;
+  }
+}
