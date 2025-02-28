@@ -30,7 +30,7 @@ export default function about_the_project() {
             Transparent Operations: Deliver AI solutions with explainable
             models, user-friendly interfaces, and clear insights to eliminate
             hidden complexities and foster trust with users. Let me know if
-            you'd like additional details or adjustments for this content!
+            you need like additional details or adjustments for this content!
           </div>
         </div>
       </div>

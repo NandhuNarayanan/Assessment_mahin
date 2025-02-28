@@ -7,7 +7,7 @@ export default function () {
     <div className={styles.client_ExpectationsContainer}>
       <div>
         <h3 className={styles.client_ExpectationsTitle}>
-          Some works that exceed our client’s expectations!
+          Some works that exceed our clients expectations!
         </h3>
       </div>
       <div className={styles.client_ExpectationsImagearea}>
