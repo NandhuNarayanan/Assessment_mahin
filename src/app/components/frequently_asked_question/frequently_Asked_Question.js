@@ -4,12 +4,13 @@ import Image from "next/image";
 import React, { useState } from "react";
 import styles from "./frequently_Asked_Question.module.css";
 
-export default function frequently_Asked_Question() {
+export default function FrequentlyAskedQuestion() {
   const [isOpen, setIsOpen] = useState(false);
   const [isOpen1, setIsOpen1] = useState(false);
   const [isOpen2, setIsOpen2] = useState(false);
   const [isOpen3, setIsOpen3] = useState(false);
   const [isOpen4, setIsOpen4] = useState(false);
+
   return (
     <>
       <div className={styles.frequently_Asked_Question}>
@@ -43,7 +44,7 @@ export default function frequently_Asked_Question() {
           {isOpen && (
             <div className={styles.frequently_Asked_qnsAnswer}>
               <span>
-                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
                 iaculis tempus eros non vestibulum.
               </span>
             </div>
@@ -74,7 +75,7 @@ export default function frequently_Asked_Question() {
           {isOpen1 && (
             <div className={styles.frequently_Asked_qnsAnswer}>
               <span>
-                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
                 iaculis tempus eros non vestibulum.
               </span>
             </div>
@@ -108,7 +109,7 @@ export default function frequently_Asked_Question() {
           {isOpen2 && (
             <div className={styles.frequently_Asked_qnsAnswer}>
               <span>
-                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
                 iaculis tempus eros non vestibulum.
               </span>
             </div>
@@ -142,7 +143,7 @@ export default function frequently_Asked_Question() {
           {isOpen3 && (
             <div className={styles.frequently_Asked_qnsAnswer}>
               <span>
-                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
                 iaculis tempus eros non vestibulum.
               </span>
             </div>
@@ -176,7 +177,7 @@ export default function frequently_Asked_Question() {
           {isOpen4 && (
             <div className={styles.frequently_Asked_qnsAnswer}>
               <span>
-                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
                 iaculis tempus eros non vestibulum.
               </span>
             </div>
