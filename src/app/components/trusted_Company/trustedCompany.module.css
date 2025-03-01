@@ -6,11 +6,32 @@
   gap: 40px;
 }
 
-.trustedCompanyLogos {
+/* .trustedCompanyLogos {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
+} */
+
+.trustedCompanyLogos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px; /* Adjust spacing */
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.trustedCompanyLogos::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 80px; /* Adjust width of the fade effect */
+  height: 100%;
+  background: linear-gradient(to right, black, transparent);
+  pointer-events: none;
 }
 
 @media (max-width: 600px) {
