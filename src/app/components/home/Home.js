@@ -8,11 +8,11 @@ export default function Home() {
         <source src="/video-assessment.mp4" type="video/mp4" />
       </video>
       <div className={styles.contentArea}>
-        <h1>
+        <h1 className={styles.Header}>
           Revolutionizing <br /> Communication with AI- <br />
           Powered Calling Solutions
         </h1>
-        <span>
+        <span className={styles.Headersub}>
           Boost customer engagement, streamline operations, and save time <br />{" "}
           with intelligent AI calling services tailored for your business needs.
         </span>
