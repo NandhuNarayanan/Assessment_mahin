@@ -21,15 +21,17 @@
 .case_StudyDescription {
   font-size: 24px;
   font-weight: 700;
+  word-break: break-all;
 }
 
 @media (max-width: 600px) {
   .case_StudyContainer {
     flex-direction: column;
-    width: 100%;
+    width: 90%;
+    margin: 0 20px;
   }
   .case_StudyTitle {
-    font-size: 58px;
+    font-size: 38px;
     font-weight: 700;
   }
   .backgroundimage {
@@ -37,6 +39,17 @@
     height: 350px;
   }
   .imagecase2 {
-    margin: 180px;
+    margin: 150px;
+  }
+  .case_StudyArea {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .case_StudyDescription {
+    font-size: 18px;
+    font-weight: 700;
+    word-break: break-word;
   }
 }

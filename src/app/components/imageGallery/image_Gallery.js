@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function image_Gallery() {
   return (
     <div className={styles.imageGalleryContainer}>
-      <div>
+      <div className={styles.imageGalleryArea}>
         <div className={styles.imageContainer}>
           <div>
             <Image
@@ -13,6 +13,7 @@ export default function image_Gallery() {
               alt="Vercel Logo"
               width={520}
               height={731}
+              className={styles.galleryimage}
             />
           </div>
           <div className={styles.textArea}>
@@ -27,6 +28,7 @@ export default function image_Gallery() {
               alt="Vercel Logo"
               width={520}
               height={731}
+              className={styles.galleryimage}
             />
           </div>
           <div className={styles.textArea}>
@@ -41,6 +43,7 @@ export default function image_Gallery() {
               alt="Vercel Logo"
               width={520}
               height={731}
+              className={styles.galleryimage}
             />
           </div>
           <div className={styles.textArea}>
@@ -55,6 +58,7 @@ export default function image_Gallery() {
               alt="Vercel Logo"
               width={520}
               height={731}
+              className={styles.galleryimage}
             />
           </div>
           <div className={styles.textArea}>
@@ -69,6 +73,7 @@ export default function image_Gallery() {
               alt="Vercel Logo"
               width={520}
               height={731}
+              className={styles.galleryimage}
             />
           </div>
           <div className={styles.textArea}>
@@ -100,6 +105,7 @@ export default function image_Gallery() {
               alt="Vercel Logo"
               width={520}
               height={731}
+              className={styles.galleryimage}
             />
           </div>
           <div className={styles.textArea}>
@@ -114,6 +120,7 @@ export default function image_Gallery() {
               alt="Vercel Logo"
               width={520}
               height={731}
+              className={styles.galleryimage}
             />
           </div>
           <div className={styles.textArea}>
@@ -128,6 +135,7 @@ export default function image_Gallery() {
               alt="Vercel Logo"
               width={520}
               height={731}
+              className={styles.galleryimage}
             />
           </div>
           <div className={styles.textArea}>
@@ -142,6 +150,7 @@ export default function image_Gallery() {
               alt="Vercel Logo"
               width={520}
               height={731}
+              className={styles.galleryimage}
             />
           </div>
           <div className={styles.textArea}>
@@ -156,6 +165,7 @@ export default function image_Gallery() {
               alt="Vercel Logo"
               width={520}
               height={731}
+              className={styles.galleryimage}
             />
           </div>
           <div className={styles.textArea}>
@@ -170,6 +180,7 @@ export default function image_Gallery() {
               alt="Vercel Logo"
               width={520}
               height={731}
+              className={styles.galleryimage}
             />
           </div>
           <div className={styles.textArea}>

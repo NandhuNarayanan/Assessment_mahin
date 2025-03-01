@@ -5,7 +5,7 @@ import styles from "./Case_study.module.css";
 export default function Case_study() {
   return (
     <div className={styles.case_StudyContainer}>
-      <div>
+      <div className={styles.case_StudyArea}>
         <div>
           <h1 className={styles.case_StudyTitle}>Our Case Study</h1>
         </div>

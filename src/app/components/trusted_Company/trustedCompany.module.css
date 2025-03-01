@@ -22,4 +22,8 @@
   .trustedCompanyContainer {
     gap: 0px;
   }
+
+  .trustedCompanyGlobe {
+    margin: 5px 20px;
+  }
 }

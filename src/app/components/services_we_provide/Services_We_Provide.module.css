@@ -40,6 +40,11 @@
   gap: 15px;
   background-color: #ffffff;
   border-radius: 30px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.BusinessBox1:hover {
+  background-color: #ffac33;
 }
 
 .BusinessBox2 {
@@ -54,6 +59,11 @@
   background-color: #ffffff;
   border-radius: 30px;
   margin-top: 20px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.BusinessBox2:hover {
+  background-color: #ffac33;
 }
 
 .Box1title {
@@ -61,6 +71,14 @@
   font-weight: 700;
   text-align: center;
   color: #ffac33;
+}
+
+.BusinessBox1:hover .Box1title {
+  color: #ffffff;
+}
+
+.BusinessBox2:hover .Box1title {
+  color: #ffffff;
 }
 
 .Box1text {

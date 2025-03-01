@@ -5,7 +5,7 @@ import styles from "./trustedCompany.module.css"
 export default function trustedCompany() {
   return (
     <div className={styles.trustedCompanyContainer}>
-        <div>
+        <div className={styles.trustedCompanyGlobe}>
         Trusted by companies in 100+ countries around the globe.
         </div>
         <div className={styles.trustedCompanyLogos}>
