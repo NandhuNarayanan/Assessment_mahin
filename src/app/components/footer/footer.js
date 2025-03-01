@@ -21,9 +21,9 @@ export default function footer() {
         <div>Hello@webfolio.com</div>
         <div className={styles.phone}>+2 456 (343) 24 45</div>
       </div>
-      <div>
-        <div>Useful Links</div>
-        <div>
+      <div className={styles.usefulLinksArea}>
+        <div className={styles.usefulLinks}>Useful Links</div>
+        <div className={styles.usefulLinksList}>
           <ul className={styles.usefulLinks}>
             <li>About</li>
             <li>Services</li>

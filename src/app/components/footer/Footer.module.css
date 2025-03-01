@@ -88,4 +88,29 @@
   .ai_development_headingarea {
     width: 100%;
   }
+
+  .address {
+    width: 325px;
+    text-align: left;
+  }
+
+  .usefulLinks {
+    gap: 25px;
+  }
+
+  .usefulLinksArea {
+    margin: 20px;
+    width: 80%;
+  }
+
+  .usefulLinksList {
+    display: flex;
+    cursor: pointer;
+  }
+  .usefulLinks {
+    display: flex;
+    align-items: flex-start;
+    font-size: 18px;
+    font-weight: 700;
+  }
 }
