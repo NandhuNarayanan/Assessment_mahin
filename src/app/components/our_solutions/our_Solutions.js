@@ -58,6 +58,7 @@ export default function our_Solutions() {
           alt="Vercel Logo"
           width={850}
           height={600}
+          className={styles.webTabsImage}
         ></Image>
         </div>
         <div>
@@ -66,6 +67,7 @@ export default function our_Solutions() {
           alt="Vercel Logo"
           width={850}
           height={600}
+          className={styles.webTabsImage}
         ></Image>
         </div>
       </div>

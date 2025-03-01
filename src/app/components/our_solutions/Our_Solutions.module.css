@@ -66,4 +66,8 @@
     width: 80%;
     margin: 0px;
   }
+  .webTabsImage{
+    width: 100%;
+    height: 300px;
+  }
 }
