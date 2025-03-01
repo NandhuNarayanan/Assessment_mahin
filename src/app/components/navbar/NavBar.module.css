@@ -60,4 +60,8 @@
   .menuicon {
     display: flex;
   }
+
+  .NavBarmenu {
+    padding: 0 5px;
+  }
 }

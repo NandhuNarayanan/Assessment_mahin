@@ -8,8 +8,8 @@ export default function footer() {
         <Image
           src="/Logo.png"
           alt="Vercel Logo"
-          width={100}
-          height={100}
+          width={130}
+          height={65}
         ></Image>
       </div>
       <div className={styles.contact}>
