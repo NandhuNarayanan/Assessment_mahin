@@ -13,7 +13,7 @@ export default function NavBar() {
     <div className={styles.NavBarmenu}>
       <div>
         <div onClick={() => router.push("/")}>
-          <Image src="/logo.png" alt="Vercel Logo" width={150} height={130} />
+          <Image src="/logo.png" alt="Vercel Logo" width={130} height={65} />
         </div>
       </div>
       <div className={styles.menuList}>
