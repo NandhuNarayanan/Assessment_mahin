@@ -74,8 +74,8 @@
 }
 
 .primaryButtons:hover {
-  background-color: #ffff00d2; /* Darker blue on hover */
-  transform: scale(1.05); /* Slightly enlarges button */
+  background-color: #ffff00d2;
+  transform: scale(1.05);
 }
 
 .secondaryButtons {
@@ -92,7 +92,7 @@
 }
 
 .secondaryButtons:hover {
-  background-color: #ffad33bd;
+  background-color: #ffad33d8;
   transform: scale(1.05);
 }
 

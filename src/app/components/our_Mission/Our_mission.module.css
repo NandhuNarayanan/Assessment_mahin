@@ -45,6 +45,13 @@
   border-radius: 100px;
   font-weight: 700;
   font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.WhoWeAreButton:hover {
+  background-color: #ffff00d2; /* Darker blue on hover */
+  transform: scale(1.01); /* Slightly enlarges button */
 }
 
 @media (max-width: 600px) {
