@@ -15,7 +15,7 @@ export default function Toggle({ setOpen }) {
         className={styles.menuClose}
         onClick={() => setOpen((prev) => !prev)}
       >
-        <Image src="/delete.png" alt="Close Menu" width={50} height={50} />
+        <Image src="/delete.png" alt="Close Menu" width={35} height={35} />
       </button>
 
       <div className={styles.menuList}>
