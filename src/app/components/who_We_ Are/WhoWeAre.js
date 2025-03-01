@@ -10,8 +10,8 @@ export default function WhoWeAre() {
           <Image
             src="/Who_we_are_image.jpg"
             alt="Vercel Logo"
-            width={"auto"}
-            height={"auto"}
+            width={590}
+            height={420}
             className={styles.WhoWeAreImage}
           />
         </div>
